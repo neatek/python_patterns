@@ -1,1 +1,1 @@
-{"your_name": "Test", "your_email": "testemail", "your_enquiry": "test", "contact_submitted": "submit"}
+{"your_name": "Newtest", "your_email": "test", "your_enquiry": "test", "contact_submitted": "submit"}

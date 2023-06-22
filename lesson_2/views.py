@@ -11,7 +11,7 @@ class Contacts:
     def __call__(self, request):
         # Process request
         print("contacts_request", request)
-        if request["data"]:
+        if "data" in request and request["data"]:
             with open("contacts.txt", "w") as file1:
                 file1.write(json.dumps(request["data"]))
 
